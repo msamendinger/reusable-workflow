@@ -3,7 +3,4 @@ on:
 
 jobs:
   hello_world:
-    name: hello world
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ./.github/workflows/test.yml
+     uses: ./.github/workflows/test.yml
