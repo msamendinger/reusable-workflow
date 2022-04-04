@@ -1,0 +1,12 @@
+name: 'Test re-usable workflow'
+
+on:
+  workflow_call
+
+jobs:
+  hello:
+    name: hello world
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello world
+        run: echo "Hello World!"
