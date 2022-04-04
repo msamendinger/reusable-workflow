@@ -6,4 +6,4 @@ jobs:
     name: hello world
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/test
+      - uses: ./.github/workflows/test.yml
